@@ -14,8 +14,6 @@ public class UserDao implements UserDaoService {
 	public void add(User user) {
 		users.add(user);
 		System.out.println(user.getFirstName() +" "+ user.getLastName()+" Sisteme kaydedildi.");
-
-		
 	}
 
 	@Override
